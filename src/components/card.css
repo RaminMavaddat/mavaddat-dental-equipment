@@ -1,0 +1,33 @@
+:root {
+  --box-color: rgb(13, 98, 189);
+}
+
+.card {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: solid 2px var(--box-color);
+  border-radius: 1rem;
+  background-color: var(--box-color);
+}
+
+.card p {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.card img {
+  width: 50%;
+  aspect-ratio: 6/4.2;
+  max-width: 50rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .card p {
+    font-size: 0.5rem;
+  }
+}
