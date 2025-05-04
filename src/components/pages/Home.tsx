@@ -1,6 +1,7 @@
-import Card from "../Card";
 import ImageSlider from "../ImageSlider";
+import Card from "../Card";
 import "./home.css";
+
 export const Home = () => {
   const images = import.meta.glob("/src/assets/slideImages/*.{webp,png,jpg}");
 
@@ -16,22 +17,33 @@ export const Home = () => {
       <div className="slide-container">
         <ImageSlider images={imagePaths} />;
       </div>
-      <div className="card">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          aspernatur doloremque dignissimos iusto laudantium ea architecto
-          sapiente rerum dolor excepturi inventore tempore voluptatem cumque non
-          a magnam culpa saepe animi, porro nisi deserunt. Odit dicta ad, amet
-          nostrum maxime, distinctio repellendus laboriosam nobis fugiat totam
-          saepe eaque dolores assumenda autem?
-        </p>
+      <div className="card-container">
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
 
-        <img src="./src/assets/tstrong.webp" />
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
+        <Card
+          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
+          imgUrl="./src/assets/tstrong.webp"
+        />
       </div>
-      <Card
-        description="hi there i'm using card"
-        imgUrl="./src/assets/tstrong.webp"
-      />
     </>
   );
 };
