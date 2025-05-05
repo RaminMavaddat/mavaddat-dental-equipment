@@ -2,27 +2,40 @@
   --box-color: rgb(13, 98, 189);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 1rem;
   width: calc(50% - 10px);
   margin: 5px;
-  height: 150vh;
+  min-height: 70vh;
   border: solid 2px black;
-  overflow-x: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .card h1 {
   width: 100%;
+  margin: 5px;
 }
 
 .card p {
-  font-size: 2rem;
+  direction: rtl;
+  font-size: 1.5rem;
   width: 100%;
   height: 40%;
   padding: 0 3px;
@@ -33,21 +46,18 @@
 
 .card img {
   border-radius: 1rem;
-
-  height: 60%;
+  width: 90%;
 }
 
 .more-info-btn {
-  position: absolute;
-  bottom: 10px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--box-color);
   color: white;
-  width: 200px;
+  width: 150px;
   padding: 5px;
+  margin-top: 1rem;
   font-size: 1.5rem;
   border-radius: 1rem;
   border: solid 1px white;
@@ -57,6 +67,11 @@
   .card {
     flex-wrap: nowrap;
     width: auto;
+    min-height: 50vh;
+  }
+
+  .card h1 {
+    font-size: 1rem;
   }
 
   .card p {

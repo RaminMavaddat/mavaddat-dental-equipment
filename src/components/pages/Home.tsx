@@ -1,6 +1,7 @@
 import ImageSlider from "../ImageSlider";
 import Card from "../Card";
 import "./home.css";
+import data from "../../data/products.json";
 
 export const Home = () => {
   const images = import.meta.glob("/src/assets/slideImages/*.{webp,png,jpg}");
@@ -18,31 +19,16 @@ export const Home = () => {
         <ImageSlider images={imagePaths} />;
       </div>
       <div className="card-container">
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
-
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
-        <Card
-          description="lorem ipisum dome amintsda this is what is it there was nothing left to do when the "
-          imgUrl="./src/assets/tstrong.webp"
-        />
+        {data.products.map((product) => (
+          <Card
+            key={product.id}
+            header={product.header}
+            name={product.name}
+            description={product.description}
+            imgUrl={product.imgUrl}
+            navigationUrl={product.navigationUrl}
+          />
+        ))}
       </div>
     </>
   );
