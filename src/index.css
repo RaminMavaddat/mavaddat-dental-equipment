@@ -5,7 +5,22 @@
 }
 
 :root {
+  --primary-color: rgb(13, 98, 189);
+  --secondary-color: rgb(31, 221, 205);
   direction: rtl;
   font-size: 62.5%;
-  height: 200vh;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }

@@ -19,7 +19,10 @@ function Navbar() {
           <span />
           <span />
         </menu>
-        <ul className={menuState ? "open" : ""}>
+        <ul
+          className={menuState ? "open" : ""}
+          onClick={() => setMenuState(!menuState)}
+        >
           <li>
             <NavLink to="/">خانه</NavLink>
           </li>

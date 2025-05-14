@@ -1,0 +1,52 @@
+.modal {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(69, 154, 214, 0.51);
+  font-size: 3rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+.modal-container {
+  position: relative;
+  display: flex;
+  width: 100vw;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container i {
+  position: absolute;
+}
+
+.modal-main-image-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 90vw;
+}
+
+.modal-main-image {
+  aspect-ratio: auto;
+  max-height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .modal {
+    background-color: white;
+  }
+
+  .modal-main-image-container {
+    min-width: none;
+    width: auto;
+    overflow: hidden;
+  }
+}

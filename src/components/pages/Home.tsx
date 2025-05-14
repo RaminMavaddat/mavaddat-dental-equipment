@@ -20,14 +20,7 @@ export const Home = () => {
       </div>
       <div className="card-container">
         {data.products.map((product) => (
-          <Card
-            key={product.id}
-            header={product.header}
-            name={product.name}
-            description={product.description}
-            imgUrl={product.imgUrl}
-            navigationUrl={product.navigationUrl}
-          />
+          <Card product={product} />
         ))}
       </div>
     </>

@@ -2,29 +2,34 @@ import { useNavigate } from "react-router-dom";
 import "./card.css";
 
 interface Props {
-  header: string;
-  name: string;
-  description: string;
-  imgUrl: string;
-  navigationUrl: string;
+  product: any;
+  // product: {
+  //   id: number;
+  //   header: string;
+  //   name: string;
+  //   description: string;
+  //   imgUrl: string;
+  //   navigationUrl: string;
+  //   moreInfo: Object;
+  // };
 }
 
-function Card({ header, name, description, imgUrl, navigationUrl }: Props) {
+function Card({ product }: Props) {
   const navigate = useNavigate();
+
   return (
     <>
       <div className="card">
-        <img src={imgUrl} />
+        <img src={product.imgUrl} />
         <h1>
-          <i className="bi bi-clipboard2"></i>
-          {header}
+          <i className="bi bi-stars" /> {product.header}
         </h1>
-        <h1>{name}</h1>
-        <p>{description}</p>
+        <h1>{product.name}</h1>
+        <p>{product.description}</p>
         <button
           className="more-info-btn"
           onClick={() => {
-            navigate(navigationUrl);
+            navigate(product.navigationUrl, { state: product.moreInfo });
           }}
         >
           <i className="bi bi-mouse"></i>مشاهده بیشتر

@@ -1,0 +1,43 @@
+footer {
+  color: white;
+  display: flex;
+  justify-content: start;
+  background-color: var(--primary-color);
+  overflow: hidden;
+  min-height: fit-content;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+footer ul {
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer i {
+  margin: 0 3px;
+}
+
+footer h1 {
+  text-align: center;
+  margin: 0;
+  margin-right: 0.5rem;
+}
