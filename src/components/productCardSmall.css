@@ -1,0 +1,19 @@
+.product-card-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border: solid 1px black;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card-small img {
+  aspect-ratio: auto;
+  width: 100%;
+}
+
+.product-image {
+  aspect-ratio: auto;
+}

@@ -1,5 +1,5 @@
 import ImageSlider from "../ImageSlider";
-import Card from "../Card";
+import ProductCardLarge from "../ProductCardLarge";
 import "./home.css";
 import data from "../../data/products.json";
 
@@ -20,7 +20,7 @@ export const Home = () => {
       </div>
       <div className="card-container">
         {data.products.map((product) => (
-          <Card product={product} />
+          <ProductCardLarge product={product} />
         ))}
       </div>
     </>

@@ -66,10 +66,10 @@
     {
       "id": 2,
       "header": "دستگاه اسکنر تصاویر فسفرپلیت دندانپزشکی",
-      "name": "BLZ Intraoral Scanner",
+      "name": "DENTAFILM Phosphor Plate Image Scanner",
       "description": "با اسکنر تصاویر فسفرپلیت دندانپزشکی دنتافیلم امکان ظهور و مشاهده تصویر دندان بیمار به صورت دیجیتال را به راحتی در سریع ترین زمان ممکن برای دندانپزشکان فراهم کرده است. این تصاویر در عرض چند ثانیه با کیفیت بسیار بالا در رایانه نمایش داده شده و با کمک نرم افزار تخصصی آن قابل پردازش و بررسی دقیقتر برای تشیص عارضه دندانی بیمار خواهد بود.",
       "imgUrl": "/products/denta-film-Scanner.jpg",
-      "navigationUrl": "/about",
+      "navigationUrl": "/denta-film-scanner",
       "moreInfo": {
         "header": "دستگاه فسفرپلیت Dentafilm",
         "productFeatures": {
@@ -103,13 +103,13 @@
         "usage": [],
 
         "productImages": [
-          "/DantaFirm/1.jpg",
-          "/DantaFirm/2.jpg",
-          "/DantaFirm/3.jpg",
-          "/DantaFirm/4.jpg",
-          "/DantaFirm/5.jpg",
-          "/DantaFirm/6.jpg",
-          "/DantaFirm/7.jpg"
+          "/DentaFilmScanner/1.jpg",
+          "/DentaFilmScanner/2.jpg",
+          "/DentaFilmScanner/3.jpg",
+          "/DentaFilmScanner/4.jpg",
+          "/DentaFilmScanner/5.jpg",
+          "/DentaFilmScanner/6.jpg",
+          "/DentaFilmScanner/7.jpg"
         ]
       }
     },
@@ -127,7 +127,8 @@
       "name": "T.STRONG Implant System Fixture, Abutment & Surgical Kit",
       "description": "ایمپلنت دندانپزشکی T.STRONG (U-FIT) با قدمت 23 ساله در ایران از جمله محصولات قابل اعتماد برای دندانپزشکان عزیزی که به دنبال کیفیت و استاندارد هستند می باشد. از جمله محصولات این برند شامل فیکسچر و ایمپلنت اباتمنت می باشد. همچنین کیت جراحی مخصوص ایمپلنت با تنوعی از دریل های کاربردی از دیگر محصولات پر طرفدار این برند می باشد.",
       "imgUrl": "/products/t-strong.jpg",
-      "navigationUrl": "/about"
+      "data-url": "/implantSystems.json",
+      "navigationUrl": "/TStrong-implant-system"
     }
   ]
 }

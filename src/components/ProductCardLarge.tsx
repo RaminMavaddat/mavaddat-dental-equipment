@@ -1,20 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import "./card.css";
+import "./ProductCardLarge.css";
 
 interface Props {
   product: any;
-  // product: {
-  //   id: number;
-  //   header: string;
-  //   name: string;
-  //   description: string;
-  //   imgUrl: string;
-  //   navigationUrl: string;
-  //   moreInfo: Object;
-  // };
 }
 
-function Card({ product }: Props) {
+function ProductCardLarge({ product }: Props) {
   const navigate = useNavigate();
 
   return (
@@ -39,4 +30,4 @@ function Card({ product }: Props) {
   );
 }
 
-export default Card;
+export default ProductCardLarge;

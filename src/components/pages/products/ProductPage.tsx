@@ -50,7 +50,7 @@ export default function ProductPage({
               </ul>
             </div>
             <div>
-              <h1>موارد استفاده</h1>
+              {data.usage.length > 0 && <h1>موارد استفاده</h1>}
               {data.usage.map((item: string) => (
                 <li>{item}</li>
               ))}

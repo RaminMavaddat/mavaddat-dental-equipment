@@ -26,7 +26,11 @@ const ImageSlider = ({ images }: Props) => {
       {images.map((image, index) => (
         <a href="/">
           <div key={index}>
-            <img src={image} alt={`Slide ${index}`} />
+            <img
+              className="image-slider-img"
+              src={image}
+              alt={`Slide ${index}`}
+            />
           </div>
         </a>
       ))}

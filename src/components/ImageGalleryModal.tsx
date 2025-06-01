@@ -34,7 +34,9 @@ function ImageGalleryModal({
         <i
           style={{ right: "0.5rem" }}
           className="bi bi-chevron-right"
-          onClick={() => setImageIndex((imageIndex + 1) % imagesCount)}
+          onClick={() => {
+            setImageIndex((imageIndex + 1) % imagesCount);
+          }}
         ></i>
         <div className="modal-main-image-container">
           <img
@@ -46,7 +48,9 @@ function ImageGalleryModal({
         <i
           style={{ left: "0.5rem" }}
           className="bi bi-chevron-left"
-          onClick={() => setImageIndex((imageIndex - 1) % imagesCount || 0)}
+          onClick={() => {
+            if (imageIndex > 0) setImageIndex((imageIndex - 1) % imagesCount);
+          }}
         ></i>
       </div>
     </div>

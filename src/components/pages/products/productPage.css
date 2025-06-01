@@ -22,7 +22,7 @@
   flex-direction: row;
   width: 100%;
   padding: 3rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .product-header {
@@ -43,5 +43,9 @@
 
   .feature-description-section {
     font-size: 1rem;
+  }
+
+  .page-body img {
+    width: 100%;
   }
 }
