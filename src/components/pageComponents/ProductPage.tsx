@@ -1,8 +1,8 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import "./productPage.css";
-import ImageGallery from "../../ImageGallery";
-import ImageGalleryModal from "../../ImageGalleryModal";
+import ImageGallery from "./ImageGallery";
+import ImageGalleryModal from "./ImageGalleryModal";
 
 export default function ProductPage({
   children,

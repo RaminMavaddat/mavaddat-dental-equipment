@@ -127,8 +127,10 @@
       "name": "T.STRONG Implant System Fixture, Abutment & Surgical Kit",
       "description": "ایمپلنت دندانپزشکی T.STRONG (U-FIT) با قدمت 23 ساله در ایران از جمله محصولات قابل اعتماد برای دندانپزشکان عزیزی که به دنبال کیفیت و استاندارد هستند می باشد. از جمله محصولات این برند شامل فیکسچر و ایمپلنت اباتمنت می باشد. همچنین کیت جراحی مخصوص ایمپلنت با تنوعی از دریل های کاربردی از دیگر محصولات پر طرفدار این برند می باشد.",
       "imgUrl": "/products/t-strong.jpg",
-      "data-url": "/implantSystems.json",
-      "navigationUrl": "/TStrong-implant-system"
+      "navigationUrl": "/TStrong-implant-system",
+      "moreInfo": {
+        "dataUrl": "/data/implantSystems.json"
+      }
     }
   ]
 }

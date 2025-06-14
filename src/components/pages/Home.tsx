@@ -1,5 +1,5 @@
-import ImageSlider from "../ImageSlider";
-import ProductCardLarge from "../ProductCardLarge";
+import ImageSlider from "../pageComponents/ImageSlider";
+import ProductCardLarge from "../pageComponents/ProductCardLarge";
 import "./home.css";
 import data from "../../data/products.json";
 

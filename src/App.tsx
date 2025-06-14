@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/main/Navbar";
+import Footer from "./components/main/Footer";
 import { Routes, Route } from "react-router-dom";
 import { Home, About } from "./components/pages";
-import ProductPage from "./components/pages/products/ProductPage";
+import ProductPage from "./components/pageComponents/ProductPage";
 import { OralScanner, DentaFilmScanner } from "./components/pages/products";
-import ProductList from "./components/pages/products/ProductList";
+import ProductList from "./components/pageComponents/ProductList";
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
 
         <Route path="/home" element={<About />} />
       </Routes>
+
       <Footer />
     </>
   );
