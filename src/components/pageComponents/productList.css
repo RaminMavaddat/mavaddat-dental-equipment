@@ -2,11 +2,14 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  min-height: 100vh;
+
+  margin: 1rem;
+  height: fit-content;
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
+  margin: 1rem;
 }

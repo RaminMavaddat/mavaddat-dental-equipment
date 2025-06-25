@@ -11,7 +11,7 @@ function ProductCardSmall({ product }: Props) {
   return (
     <div className="product-card-small">
       <img src={product.imgUrl} />
-      <h1>{product.description}</h1>
+      <h1> {product.description} </h1>
       <button
         onClick={() => {
           navigate(product.navigationUrl, { state: product.moreInfo });

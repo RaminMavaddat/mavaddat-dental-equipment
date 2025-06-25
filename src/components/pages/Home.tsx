@@ -20,7 +20,7 @@ export const Home = () => {
       </div>
       <div className="card-container">
         {data.products.map((product) => (
-          <ProductCardLarge product={product} />
+          <ProductCardLarge key={product.id} product={product} />
         ))}
       </div>
     </>

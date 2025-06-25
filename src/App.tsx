@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Navbar from "./components/main/Navbar";
 import Footer from "./components/main/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -34,6 +35,8 @@ function App() {
         <Route path="/TStrong-implant-system" element={<ProductList />} />
 
         <Route path="/home" element={<About />} />
+
+        <Route path="*" element={<div>Page not found</div>} />
       </Routes>
 
       <Footer />
