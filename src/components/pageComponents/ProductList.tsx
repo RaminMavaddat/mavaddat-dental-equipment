@@ -9,8 +9,6 @@ function ProductList() {
   const [jsonData, setJsonData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
-  console.log("data url is :" + data.dataUrl);
-
   useEffect(() => {
     if (data.dataUrl) {
       fetch(data.dataUrl)

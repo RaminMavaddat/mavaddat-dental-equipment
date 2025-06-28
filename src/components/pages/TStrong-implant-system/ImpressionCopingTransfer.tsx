@@ -1,4 +1,4 @@
-function ImpressionCopingTransfer() {
+export function ImpressionCopingTransfer() {
   return (
     <div className="impression-coping">
       <h2>جدول مشخصات ایمپرشن کوپینگ بسته</h2>
@@ -43,4 +43,3 @@ function ImpressionCopingTransfer() {
     </div>
   );
 }
-export default ImpressionCopingTransfer;

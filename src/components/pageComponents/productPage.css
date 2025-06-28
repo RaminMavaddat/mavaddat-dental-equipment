@@ -35,6 +35,10 @@
   padding: 3rem;
 }
 
+.page-body img {
+  width: 50%;
+}
+
 @media (max-width: 800px) {
   .feature-top-section {
     flex-direction: column;

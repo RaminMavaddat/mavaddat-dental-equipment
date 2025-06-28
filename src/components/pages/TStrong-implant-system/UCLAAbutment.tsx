@@ -1,4 +1,4 @@
-function UCLAAbutment() {
+export function UCLAAbutment() {
   return (
     <>
       <div
@@ -11,8 +11,8 @@ function UCLAAbutment() {
       >
         <h2>جدول مشخصات اباتمنت موقت UCLA Abutment</h2>
         <div style={{ display: "flex" }}>
-          <img src="/TStrong-implant-system/angled-abutment/angled-abutment04.jpg" />
-          <img src="/TStrong-implant-system/angled-abutment/angled-abutment05.jpg" />
+          <img src="/TStrong-implant-system/UCLA-abutment/UCLA-abutment-04.jpg" />
+          <img src="/TStrong-implant-system/UCLA-abutment/UCLA-abutment-05.jpg" />
         </div>
         <p>
           اباتمنت موقت UCLA Abutment برند T.STRONG کره جنوبی، از جنس کروم بوده و
@@ -65,5 +65,3 @@ function UCLAAbutment() {
     </>
   );
 }
-
-export default UCLAAbutment;

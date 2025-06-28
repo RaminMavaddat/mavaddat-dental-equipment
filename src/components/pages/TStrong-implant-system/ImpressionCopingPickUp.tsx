@@ -1,4 +1,4 @@
-function ImpressionCopingPickUp() {
+export function ImpressionCopingPickUp() {
   return (
     <>
       <div
@@ -59,4 +59,3 @@ function ImpressionCopingPickUp() {
     </>
   );
 }
-export default ImpressionCopingPickUp;

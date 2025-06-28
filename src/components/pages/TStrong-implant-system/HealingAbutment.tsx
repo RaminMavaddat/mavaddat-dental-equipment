@@ -1,10 +1,10 @@
-function HealingAbutment() {
+export function HealingAbutment() {
   return (
     <div className="healing-abutment">
       <h1>جدول مشخصات هیلینگ اباتمنت Healing Abutment</h1>
       <div style={{ display: "flex" }}>
-        <img src="/TStrong-implant-system/healing-abutment/healing-abutment03.jpg" />
-        <img src="/TStrong-implant-system/healing-abutment/healing-abutment04.jpg" />
+        <img src="/TStrong-implant-system/healing-abutment/healing-abutment-03.jpg" />
+        <img src="/TStrong-implant-system/healing-abutment/healing-abutment-04.jpg" />
       </div>
       <section>
         <h2>هیلینگ اباتمنت T.STRONG</h2>
@@ -50,4 +50,3 @@ function HealingAbutment() {
     </div>
   );
 }
-export default HealingAbutment;

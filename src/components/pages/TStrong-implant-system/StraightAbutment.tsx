@@ -1,4 +1,4 @@
-function StraightAbutment() {
+export function StraightAbutment() {
   return (
     <>
       <div
@@ -10,7 +10,7 @@ function StraightAbutment() {
         }}
       >
         <h2>جدول مشخصات اباتمنت مستقیم Straight Abutment</h2>
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", width: "100%", flexWrap: "wrap" }}>
           <img src="/TStrong-implant-system/straight-abutment/straight-abutment03.jpg" />
           <img src="/TStrong-implant-system/straight-abutment/straight-abutment04.jpg" />
         </div>
@@ -61,5 +61,3 @@ function StraightAbutment() {
     </>
   );
 }
-
-export default StraightAbutment;

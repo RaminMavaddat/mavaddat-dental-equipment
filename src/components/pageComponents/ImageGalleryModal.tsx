@@ -8,13 +8,13 @@ interface Props {
 }
 
 function ImageGalleryModal({
-  imageUrls,
+  imageUrls = [],
   display,
   setDisplay,
   setParentOverflow,
 }: Props) {
   const [imageIndex, setImageIndex] = useState(0);
-  const imagesCount = imageUrls.length;
+  const imagesCount = imageUrls?.length;
   return (
     <div className="modal" style={{ display: display }}>
       <i

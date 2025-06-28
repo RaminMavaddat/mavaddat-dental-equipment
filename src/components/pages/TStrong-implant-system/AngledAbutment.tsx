@@ -1,4 +1,4 @@
-function AngledAbutment() {
+export function AngledAbutment() {
   return (
     <>
       <div className="angled-abutment-info" dir="rtl">
@@ -55,5 +55,3 @@ function AngledAbutment() {
     </>
   );
 }
-
-export default AngledAbutment;

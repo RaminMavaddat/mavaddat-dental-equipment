@@ -1,4 +1,4 @@
-function FuxtureNt2() {
+export function FuxtureNt2() {
   return (
     <div className="fixture-nt2-info">
       <h2>جدول مشخصات فیکسچر Nt2</h2>
@@ -41,5 +41,3 @@ function FuxtureNt2() {
     </div>
   );
 }
-
-export default FuxtureNt2;

@@ -1,4 +1,4 @@
-function SurgicalKit() {
+export function SurgicalKit() {
   return (
     <div className="implant-kit">
       <h1>اجزای تشکیل دهنده کیت جراحی ایمپلنت T.STRONG</h1>
@@ -52,4 +52,3 @@ function SurgicalKit() {
     </div>
   );
 }
-export default SurgicalKit;

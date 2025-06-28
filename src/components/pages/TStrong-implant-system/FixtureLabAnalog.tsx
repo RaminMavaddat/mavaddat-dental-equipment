@@ -1,4 +1,4 @@
-function FixtureLabAnalog() {
+export function FixtureLabAnalog() {
   return (
     <div className="fixture-lab-analog-info">
       <h2>جدول مشخصات فیکسچر لب آنالوگ</h2>
@@ -42,5 +42,3 @@ function FixtureLabAnalog() {
     </div>
   );
 }
-
-export default FixtureLabAnalog;

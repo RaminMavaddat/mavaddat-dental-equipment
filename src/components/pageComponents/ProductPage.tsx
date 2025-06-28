@@ -33,25 +33,30 @@ export default function ProductPage({
         <h1 className="product-header">{data.header}</h1>
         <div className="feature-top-section">
           <div className="feature-description-section">
+            {data.productFeatures && (
+              <div>
+                <h1>ویژگی محصول</h1>
+                <ul>
+                  {Object.entries(data.productFeatures).map(([key, value]) => (
+                    <li key={key}>{`${key} : ${value}`}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {data.moreFeatures && (
+              <div>
+                <h1>قابلیت ها</h1>
+                <ul>
+                  {data.moreFeatures?.map((item: string) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <div>
-              <h1>ویژگی محصول</h1>
-              <ul>
-                {Object.entries(data.productFeatures).map(([key, value]) => (
-                  <li key={key}>{`${key} : ${value}`}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h1>قابلیت ها</h1>
-              <ul>
-                {data.moreFeatures.map((item: string) => (
-                  <li>{item}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              {data.usage.length > 0 && <h1>موارد استفاده</h1>}
-              {data.usage.map((item: string) => (
+              {data.usage?.length > 0 && <h1>موارد استفاده</h1>}
+              {data.usage?.map((item: string) => (
                 <li>{item}</li>
               ))}
             </div>
