@@ -50,7 +50,7 @@ function App() {
 
         <Route path="/TStrong-implant-system" element={<ProductList />} />
 
-        <Route path="/home" element={<About />} />
+        <Route path="/about" element={<About />} />
 
         {productsData?.map((product: any) => {
           const ProductComponent =

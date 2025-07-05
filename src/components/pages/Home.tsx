@@ -2,21 +2,13 @@ import ImageSlider from "../pageComponents/ImageSlider";
 import ProductCardLarge from "../pageComponents/ProductCardLarge";
 import "./home.css";
 import data from "../../data/products.json";
+import slideImages from "../../assets/slideImages";
 
 export const Home = () => {
-  const images = import.meta.glob("/src/assets/slideImages/*.{webp,png,jpg}");
-
-  const imagePaths = Object.keys(images).sort((a, b) => {
-    const numA = parseInt(a.replace(/\D/g, ""), 10);
-    const numB = parseInt(b.replace(/\D/g, ""), 10);
-
-    return numA - numB;
-  });
-
   return (
     <>
       <div className="slide-container">
-        <ImageSlider images={imagePaths} />;
+        <ImageSlider images={slideImages} />;
       </div>
       <div className="card-container">
         {data.products.map((product) => (

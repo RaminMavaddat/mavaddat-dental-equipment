@@ -31,10 +31,6 @@ function Navbar() {
           </li>
 
           <li>
-            <NavLink to="/contactUs">تماس با ما</NavLink>
-          </li>
-
-          <li>
             <NavLink to="/about"> درباره </NavLink>
           </li>
         </ul>

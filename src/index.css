@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+html {
+  font-family: "Vazirmatn", sans-serif;
+}
+
 #root {
   display: flex;
   flex-direction: column;
