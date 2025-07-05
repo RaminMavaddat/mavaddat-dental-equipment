@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./ProductCardLarge.css";
+import "./productCardLarge.css";
 
 interface Props {
   product: any;
