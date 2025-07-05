@@ -2,7 +2,7 @@ export function HealingAbutment() {
   return (
     <div className="healing-abutment">
       <h1>جدول مشخصات هیلینگ اباتمنت Healing Abutment</h1>
-      <div style={{ display: "flex" }}>
+      <div className="image-box">
         <img src="/TStrong-implant-system/healing-abutment/healing-abutment-03.jpg" />
         <img src="/TStrong-implant-system/healing-abutment/healing-abutment-04.jpg" />
       </div>

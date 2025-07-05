@@ -39,6 +39,11 @@
   width: 50%;
 }
 
+.page-body .image-box {
+  display: "flex";
+  flex-wrap: "wrap";
+}
+
 @media (max-width: 800px) {
   .feature-top-section {
     flex-direction: column;

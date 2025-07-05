@@ -2,7 +2,7 @@ export function ImpressionCopingTransfer() {
   return (
     <div className="impression-coping">
       <h2>جدول مشخصات ایمپرشن کوپینگ بسته</h2>
-      <div style={{ display: "flex" }}>
+      <div className="image-box">
         <img src="/TStrong-implant-system/impression-coping-transfer/impression-coping-transfer-03.jpg" />
         <img src="/TStrong-implant-system/impression-coping-transfer/impression-coping-transfer-04.jpg" />
       </div>

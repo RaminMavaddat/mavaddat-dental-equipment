@@ -10,7 +10,7 @@ export function ImpressionCopingPickUp() {
         }}
       >
         <h2>جدول مشخصات ایمپرشن کوپینگ باز Impression coping (pick-up)</h2>
-        <div style={{ display: "flex" }}>
+        <div className="image-box">
           <img src="/TStrong-implant-system/impression-coping-pick-up/impression-coping-pick-up-03.jpg" />
           <img src="/TStrong-implant-system/impression-coping-pick-up/impression-coping-pick-up-04.jpg" />
         </div>

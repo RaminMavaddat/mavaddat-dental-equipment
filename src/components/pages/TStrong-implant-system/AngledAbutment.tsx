@@ -4,7 +4,7 @@ export function AngledAbutment() {
       <div className="angled-abutment-info" dir="rtl">
         <h2>جدول مشخصات اباتمنت زاویه دار Angled Abutment</h2>
 
-        <div style={{ display: "flex" }}>
+        <div className="image-box">
           <img src="/TStrong-implant-system/angled-abutment/angled-abutment03.jpg" />
           <img src="/TStrong-implant-system/angled-abutment/angled-abutment04.jpg" />
         </div>

@@ -10,7 +10,7 @@ export function UCLAAbutment() {
         }}
       >
         <h2>جدول مشخصات اباتمنت موقت UCLA Abutment</h2>
-        <div style={{ display: "flex" }}>
+        <div className="image-box">
           <img src="/TStrong-implant-system/UCLA-abutment/UCLA-abutment-04.jpg" />
           <img src="/TStrong-implant-system/UCLA-abutment/UCLA-abutment-05.jpg" />
         </div>

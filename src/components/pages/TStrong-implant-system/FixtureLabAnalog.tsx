@@ -2,7 +2,7 @@ export function FixtureLabAnalog() {
   return (
     <div className="fixture-lab-analog-info">
       <h2>جدول مشخصات فیکسچر لب آنالوگ</h2>
-      <div style={{ display: "flex" }}>
+      <div className="image-box">
         <img src="/TStrong-implant-system/Fixture-Lab-Analog/Fixture-Lab-Analog-02.jpg" />
         <img src="/TStrong-implant-system/Fixture-Lab-Analog/Fixture-Lab-Analog-03.jpg" />
       </div>

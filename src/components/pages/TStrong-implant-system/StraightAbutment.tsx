@@ -10,7 +10,7 @@ export function StraightAbutment() {
         }}
       >
         <h2>جدول مشخصات اباتمنت مستقیم Straight Abutment</h2>
-        <div style={{ display: "flex", width: "100%", flexWrap: "wrap" }}>
+        <div className="image-box" style={{ width: "100%" }}>
           <img src="/TStrong-implant-system/straight-abutment/straight-abutment03.jpg" />
           <img src="/TStrong-implant-system/straight-abutment/straight-abutment04.jpg" />
         </div>

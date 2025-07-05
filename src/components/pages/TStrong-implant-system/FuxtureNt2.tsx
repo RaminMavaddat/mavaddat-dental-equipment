@@ -2,7 +2,7 @@ export function FuxtureNt2() {
   return (
     <div className="fixture-nt2-info">
       <h2>جدول مشخصات فیکسچر Nt2</h2>
-      <div style={{ display: "flex" }}>
+      <div className="image-box">
         <img src="/TStrong-implant-system/fixture-Nt2/Nt2 Fixture-05.jpg" />
         <img src="/TStrong-implant-system/fixture-Nt2/Nt2 Fixture-06.jpg" />
       </div>
