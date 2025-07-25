@@ -1,4 +1,11 @@
 .about-container {
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+@media screen and (min-width: 800px) {
+  .about-container {
+    margin: 0 5rem 0 5rem;
+  }
 }

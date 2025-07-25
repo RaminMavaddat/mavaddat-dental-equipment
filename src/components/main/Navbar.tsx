@@ -12,7 +12,7 @@ function Navbar() {
           <Link to="/" className="title">
             تجهیزات دندانپزشکی مودت
           </Link>
-          <p>نمایندگی ایمپلنت T.Strong آذربایجان شرقی</p>
+          <p>نمایندگی ایمپلنت T.Strong در آذربایجان شرقی</p>
         </div>
         <menu onClick={() => setMenuState(!menuState)}>
           <span />
